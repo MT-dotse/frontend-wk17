@@ -10,16 +10,16 @@ import styled from 'styled-components'; //import Styled component
 // 	}
 // `;
 
-const MovieContainer = styled.div`
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: auto;
-	flex-direction: column;
-	flex-wrap: wrap;
-	line-height: 2;
-	border: black;
-`;
+// const MovieContainer = styled.div`
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	height: auto;
+// 	flex-direction: column;
+// 	flex-wrap: wrap;
+// 	line-height: 2;
+// 	border: black;
+// `;
 
 const Detail = styled.div`
 	font-size: 16px;
