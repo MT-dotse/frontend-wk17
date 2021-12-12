@@ -7,6 +7,7 @@ const WelcomeMsg = styled.h1`
 	font-family: 'Bebas Neue', cursive;
 	word-spacing: 3px;
 	font-size: 40px;
+	flex-wrap: wrap;
 `;
 
 const HeaderContainer = styled.section`
@@ -16,8 +17,11 @@ const HeaderContainer = styled.section`
 	background-position: center;
 	height: 50vh;
 	display: flex;
+	width: 100%;
 	justify-content: center;
 	align-items: flex-end;
+	text-align: center;
+	padding-bottom: 40px;
 `;
 
 export const Header = () => {
